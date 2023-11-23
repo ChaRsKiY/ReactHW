@@ -1,0 +1,13 @@
+body, html {
+    margin: 0;
+    animation: color 1s infinite;
+    background-color: #068EFF;
+
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

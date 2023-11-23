@@ -1,0 +1,65 @@
+.maincontainer {
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.time {
+    text-align: center;
+    font-size: 5.5rem;
+    font-family: "Arial Black";
+    margin-bottom: 20px;
+}
+
+.button {
+    font-family: Arial;
+    width: 120px;
+    text-align: center;
+    border: 0;
+    font-size: 1.4rem;
+    background-color: #068EFF;
+    color: white;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 0 20px;
+}
+
+.btncontainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+.inputcontainer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.inputcontainer input {
+    padding: 10px 20px;
+    outline: none;
+    background-color: #068EFF;
+    color: white;
+    font-size: 1.1rem;
+    border: 0;
+    border-radius: 20px;
+}
+
+.disabled {
+    background-color: #005195;
+}
+
+.mainbtn {
+    background-color: #e8941e;
+}
+
+.simpletimer {
+    position: relative;
+    top: -20px;
+    left: -35px;
+    font-family: "Kannada Sangam MN";
+    color: #068EFF;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
